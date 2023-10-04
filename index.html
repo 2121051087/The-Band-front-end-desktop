@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document </title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="">HOME</a></li>
+                <li><a href="#band">BAND</a></li>
+                <li><a href="#tour">TOUR</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li>
+                    <a href>MORE <i class="fa fa-caret-down"></i></a>
+                    <ul class="subnav">
+                        <li><a href>Merchandise</a></li>
+                        <li><a href>Extras</a></li>
+                        <li><a href>Medias</a></li>
+                    </ul>
+                </li>
+                <li id="search"><a id="search-e"><i class="fa fa-search"></i></a></li>
+            </ul>
+
+        </div>
+        <div id="slider">
+            <div id="chicago" class="sliders">
+
+                <h1> Chicago </h1>
+                <h2>Thank you, Chicago - A night we won't forget.</h2>
+            </div>
+
+            <div id="new_york" class="sliders">
+                <h1>New York</h1>
+                <h2>The atmosphere in New York is lorem ipsum.</h2>
+            </div>
+
+            <div id="los_angeles" class="sliders">
+                <h1>Los Angeles</h1>
+                <h2>We had the best time playing at Venice Beach!</h2>
+            </div>
+
+        </div>
+
+        <div class="content" id="band">
+            <h2 class="wide">THE BAND</h2>
+            <p class="opacity"><i>We love music</i></p>
+            <p class="justify">We have created a fictional band website.
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat
+                laborum consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            <div class="row">
+                <div class="third">
+                    <p>Name</p>
+                    <img class="round" src="https://www.w3schools.com/w3images/bandmember.jpg" style="width:60%;">
+                </div>
+                <div class="third">
+                    <p>Name</p>
+                    <img class="round" src="https://www.w3schools.com/w3images/bandmember.jpg" style="width:60%;">
+                </div>
+                <div class="third">
+                    <p>Name</p>
+                    <img class="round" src="https://www.w3schools.com/w3images/bandmember.jpg" style="width:60%;">
+                </div>
+
+            </div>
+
+        </div>
+        <div id="tour">
+            <div class="tour_content ">
+                <div class="wides">
+                    <h2> TOUR DATES </h2>
+                    <p> <i>Remember to book your tickets!</i></p>
+                </div>
+                <ul class="tour_items">
+                    <li class="item_padding">September<span class="sold_out">Sold out</span>
+                    </li>
+                    <li class="item_padding">October<span class="sold_out">Sold out</span>
+                    </li>
+                    <li class="item_padding">November<span class="quantity">3</span>
+                    </li>
+                </ul>
+                <div class="row_padding">
+                    <div class="third_flexbox ">
+                        <img class="img_flexbox" src="https://www.w3schools.com/w3images/newyork.jpg">
+                        <p><b>New York</b></p>
+                        <p class="opacity">Fri 27 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="button_black"
+                            onclick="document.getElementById('modal').style.display='block'">Buy Tickets</button>
+                    </div>
+                    <div class="third_flexbox ">
+                        <img class="img_flexbox" src="https://www.w3schools.com/w3images/paris.jpg">
+                        <p><b>Paris</b></p>
+                        <p class="opacity">Sat 28 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="button_black"
+                            onclick="document.getElementById('modal').style.display='block'">Buy Tickets</button>
+                    </div>
+                    <div class="third_flexbox ">
+                        <img class="img_flexbox" src="https://www.w3schools.com/w3images/sanfran.jpg">
+                        <p><b>San Francisco</b></p>
+                        <p class="opacity">Sun 29 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="button_black"
+                            onclick="document.getElementById('modal').style.display='block'">Buy Tickets</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div id="contact">
+            <div class="contact_items">
+                <h2>
+                    CONTACT
+                </h2>
+                <p class="opacity"><i>Fan? Drop a note!</i></p>
+            </div>
+            <div class="items_padding">
+                <div class="items_left">
+                    <i class="fa fa-map-marker" style="width: 30px"> </i>
+                    Chicago, US<br>
+                    <i class="fa fa-phone" style="width:30px"></i>
+                    Phone: +00 151515<br>
+                    <i class="fa fa-envelope" style="width:30px"></i>
+                    Email: mail@mail.com
+                </div>
+                <div class="items_contact">
+                    <div class="columns">
+                        <div class="input_left">
+                            <input class="input" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="input_right">
+                            <input class="input" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <div class="input_max">
+                        <input class="input" type="text" placeholder="Message" required name="Message">
+                    </div>
+                    <button class="button_black_right" type="submit">SEND</button>
+                </div>
+            </div>
+        </div>
+        <div class="images">
+            <img src="https://www.w3schools.com/w3images/map.jpg">
+        </div>
+        <div class="footer">
+            <div class="footer_icon">
+
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-snapchat"></i>
+                <i class="fa fa-pinterest-p"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <div class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+                    target="_blank">w3.css</a></div>
+
+        </div>
+    </div>
+    <div id="modal">
+        <div id="ticketModal">
+            <div class="tickets">
+                <span onclick="document.getElementById('modal').style.display='none'" class="none ">X</span>
+                <h2><i class="fa fa-suitcase"></i> Tickets</h2>
+            </div>
+            <div class="tickets-page">
+                <p class="tickets-one "><i class="fa fa-shopping-cart"></i>Tickets, $15 per person</p>
+                <input type="text" placeholder="How many?">
+                <p class="tickets-two "><i class="fa fa-user"></i>Sent To </p>
+                <input type="text" placeholder="Email">
+            </div>
+            <button class="pay">PAY<i class="fa fa-check"></i></button>
+            <button onclick="document.getElementById('modal').style.display='none'" class="button-none ">Close X
+            </button>
+            <p class="p-ten">Need <a href="#">Help?</a></p>
+        </div>
+    </div>
+    <script src="./Js/main.js"></script
+            </body>
+            </html>
